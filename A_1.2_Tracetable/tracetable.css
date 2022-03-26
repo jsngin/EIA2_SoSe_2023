@@ -1,0 +1,17 @@
+div {
+    border: thick solid black;
+    position: absolute;
+}
+
+.big {
+    width: 55px;
+    height: 55px;
+}
+.medium {
+    width: 35px;
+    height: 35px;
+}
+.small {
+    width: 15px;
+    height: 15px;
+}
