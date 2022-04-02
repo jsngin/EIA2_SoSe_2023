@@ -1,11 +1,11 @@
 namespace radnomizedPoemScript {
 
-    let subject: string[] = ["Gandalf", "Gimli", "Frodo", "Eragon", "Boromir", "Golum", "Alf", "Wilmar", "Saruman"];
+    let subjects: string[] = ["Gandalf", "Gimli", "Frodo", "Eragon", "Boromir", "Golum", "Alf", "Wilmar", "Saruman"];
     let praedicates: string[] = ["trägt", "vergisst", "klaut", "snackt", "liebt", "hasst", "riecht", "mag", "fürchtet"];
     let objects: string[] = ["sein zweites Frühstück", "die schwarzen Reiter", "Gondor", "den einen Ring", "Orkses", "Mordor", "Vulkangestein", "Riesenspinnen", "Kriegselefanten"];
 
     for (let i = objects.length; i >= 1; i--) {
-        let versComplete: string = getVerse(subject, praedicates, objects);
+        let versComplete: string = getVerse(subjects, praedicates, objects);
         console.log(versComplete);
     }
 

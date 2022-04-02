@@ -13,6 +13,7 @@ namespace Boxes {
         for (let i: number = 0; i < n; i++) {
             y += (i == 2) ? 20 : 50;
             x = (x + 170) % 400;
+
             switch (i) {
                 case 0:
                     color = "green";
@@ -32,6 +33,8 @@ namespace Boxes {
                 if (i == 4)
                     break;
             }
+
+            console.log('tracetable: ', {'n': n, 'i': i, 'color': color, 'x': x, 'y': y});
         }
     }
 

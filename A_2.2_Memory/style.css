@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.home.hide, .memory.hide {
+    display: none;
+}
+
+.memory-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.memory-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    aspect-ratio: 1;
+    border: 1px solid white;
+    font-size: 22px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.memory-card.hide p {
+    display: none;
+}
+
+.no-pointer {
+    pointer-events: none;
+}

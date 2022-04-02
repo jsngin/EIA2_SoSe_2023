@@ -28,6 +28,7 @@ var Boxes;
                 if (i == 4)
                     break;
             }
+            console.log('tracetable: ', { 'n': n, 'i': i, 'color': color, 'x': x, 'y': y });
         }
     }
     function createBox(_color, _x, _y, _size) {

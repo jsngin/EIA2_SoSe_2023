@@ -1,10 +1,10 @@
 var radnomizedPoemScript;
 (function (radnomizedPoemScript) {
-    let subject = ["Gandalf", "Gimli", "Frodo", "Eragon", "Boromir", "Golum", "Alf", "Wilmar", "Saruman"];
+    let subjects = ["Gandalf", "Gimli", "Frodo", "Eragon", "Boromir", "Golum", "Alf", "Wilmar", "Saruman"];
     let praedicates = ["trägt", "vergisst", "klaut", "snackt", "liebt", "hasst", "riecht", "mag", "fürchtet"];
     let objects = ["sein zweites Frühstück", "die schwarzen Reiter", "Gondor", "den einen Ring", "Orkses", "Mordor", "Vulkangestein", "Riesenspinnen", "Kriegselefanten"];
     for (let i = objects.length; i >= 1; i--) {
-        let versComplete = getVerse(subject, praedicates, objects);
+        let versComplete = getVerse(subjects, praedicates, objects);
         console.log(versComplete);
     }
     function getVerse(_sub, _prä, _obj) {

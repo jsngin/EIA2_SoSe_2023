@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+#div0, #div1 {
+  width: 50%;
+  height: 70%;
+  margin: auto 10px;
+  border: 5px solid black;
+}
+
+.wrapper {
+  margin: auto;
+  display: flex;
+  height: 100%;
+}
+
+span {
+  position: fixed;
+  left: 30%;
+  top: 75%;
+  width: 30%;
+  height: 20%;
+  border: 5px solid red;
+}
