@@ -1,3 +1,9 @@
+/* Aufgabe: <A_1.2_Tracetable>
+    Name: <Jasenko Dzin>
+    Matrikel: <269400>
+    Datum: <03.04.2022>
+    Quellen: </>
+*/
 namespace EventInspector {
   window.addEventListener('load', handleLoad);
 

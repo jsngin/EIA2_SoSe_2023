@@ -1,3 +1,9 @@
+/* Aufgabe: <A_1.2_Tracetable>
+    Name: <Jasenko Dzin>
+    Matrikel: <269400>
+    Datum: <03.04.2022>
+    Quellen: </>
+*/
 namespace Boxes {
 
     window.addEventListener("load", hndlload);
@@ -47,6 +53,6 @@ namespace Boxes {
         div.style.left = _x + "px";
         div.style.top = _y + "px";
     }
-    /*  */
+    
 
 }

@@ -1,3 +1,9 @@
+/* Aufgabe: <A_1.2_Tracetable>
+    Name: <Jasenko Dzin>
+    Matrikel: <269400>
+    Datum: <03.04.2022>
+    Quellen: </>
+*/
 var Boxes;
 (function (Boxes) {
     window.addEventListener("load", hndlload);
@@ -39,6 +45,5 @@ var Boxes;
         div.style.left = _x + "px";
         div.style.top = _y + "px";
     }
-    /*  */
 })(Boxes || (Boxes = {}));
 //# sourceMappingURL=traceTable.js.map
