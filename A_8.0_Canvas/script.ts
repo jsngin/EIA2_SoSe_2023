@@ -1,4 +1,4 @@
-/* Aufgabe: <A_1.2_Tracetable>
+/* Aufgabe: <A_8_Canvas>
     Name: <Jasenko Dzin>
     Matrikel: <269400>
     Datum: <07.05.2022>

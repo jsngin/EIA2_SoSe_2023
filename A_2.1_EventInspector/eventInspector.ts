@@ -1,4 +1,4 @@
-/* Aufgabe: <A_1.2_Tracetable>
+/* Aufgabe: <A_1.2_Eventinspector>
     Name: <Jasenko Dzin>
     Matrikel: <269400>
     Datum: <03.04.2022>
