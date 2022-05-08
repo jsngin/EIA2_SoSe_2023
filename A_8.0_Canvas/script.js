@@ -1,3 +1,9 @@
+/* Aufgabe: <A_1.2_Tracetable>
+    Name: <Jasenko Dzin>
+    Matrikel: <269400>
+    Datum: <07.05.2022>
+    Quellen: </>
+*/
 var canvas;
 (function (canvas_1) {
     window.addEventListener("load", drawArt);

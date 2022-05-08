@@ -1,3 +1,9 @@
+/* Aufgabe: <A_1.2_Tracetable>
+    Name: <Jasenko Dzin>
+    Matrikel: <269400>
+    Datum: <09.04.2022>
+    Quellen: </>
+*/
 // currently the cards dissappear when they match
 // if instead the cards should just be disabled the code has to be refactored in the marked sections (*)
 var Memory;
