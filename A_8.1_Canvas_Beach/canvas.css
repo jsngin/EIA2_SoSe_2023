@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    position: absolute;
+}
+
+#strand {
+    background-color: aliceblue;
+    position: absolute;
+    left: 40%;
+    height:680px;
+    width: 380px;
+    border-color: black;
+    border: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: grey;
+}
